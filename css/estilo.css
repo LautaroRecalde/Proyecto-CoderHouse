@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sedgwick Ave Display', cursive;
+  background-image: url(../img/Airplane-PNG-Photo.png);
+}
+
+.logo {
+  text-align: center;
+}
+
+.img_logo {
+  text-align: center;
+  width: 200px;
+  position: fixed;
+  left: 50%;
+  margin-left: -450px;
+}
+
+header h1 {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+header h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(13, 13, 14);
+  padding: 10px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.section1 {
+  width: 600px;
+  padding: 20px;
+  background-color: rgb(29, 95, 172);
+  margin: 0 auto;
+  height: 10;
+  font-family: 'Rowdies', cursive;
+}
+
+.section1 p {
+  padding: 10px;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  font-family: 'Rowdies', cursive;
+}
+
+.section2 {
+  padding: 10px;
+  background-color: rgb(29, 95, 172);
+  font-family: 'Rowdies', cursive;
+}
+
+.section2 p {
+  padding: 10px;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+body,
+html {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+a:link,
+a:visited,
+a:focus {
+  background: rgb(255, 255, 255);
+}
+
+a:hover {
+  background: rgb(207, 12, 12);
+}
+
+a:active {
+  background: red;
+  color: white;
+}
+
+footer {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.linkk {
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.img_logo{
+  width: 200px;
+  position: fixed;
+  left: 50%;
+  margin-left: -450px;
+}
