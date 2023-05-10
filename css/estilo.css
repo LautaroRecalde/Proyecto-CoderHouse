@@ -133,4 +133,23 @@ h2 {
   position: fixed;
   left: 50%;
   margin-left: -450px;
+  
+}
+
+.galeria{
+width: 600px;
+height: 500px;
+opacity: .5;
+border: double grey 2px;
+}
+
+.section3{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+img:hover{
+  opacity: 1;
+  border: solid 2px white;
 }
