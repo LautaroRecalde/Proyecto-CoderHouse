@@ -228,3 +228,34 @@ footer {
       height: auto;
   }
 }
+
+.galeria:hover{
+  transform: scale(1.1, 1.1);
+  transition: all 2s ;
+}
+
+.aparecer{
+  margin: 10px;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+      opacity: 1;
+    }
+
+    100%{
+      opacity: 0;
+    }
+}
+
+.animate__animated.animate__jackInTheBox{
+  --animate-duration: 3s;
+}
