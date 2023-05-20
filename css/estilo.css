@@ -1,14 +1,17 @@
+/* Reset de estilos */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Estilos generales del cuerpo del documento */
 body {
-  font-family: 'Sedgwick Ave Display', cursive;
-  background-image: url(../img/Airplane-PNG-Photo.png);
+  font-family: 'Rowdies', cursive;
+  background-image: url(../img/nuevo\ fondo.jpg);
 }
 
+/* Estilos del logo */
 .logo {
   text-align: center;
 }
@@ -21,16 +24,17 @@ body {
   margin-left: -450px;
 }
 
+/* Estilos del encabezado */
 header{
-padding: 40px;
-text-align: center;
+  padding: 40px;
+  text-align: center;
 }
 
 header h1 {
   font-family: 'Cinzel', serif;
   text-align: center;
   font-size: 3rem;
-  color: rgb(0, 0, 0);
+  color: rgb(251, 251, 252);
   padding: 10px;
 }
 
@@ -42,10 +46,11 @@ header h3 {
   font-family: 'Bebas Neue', cursive;
 }
 
+/* Estilos de la sección 1 */
 .section1 {
   width: 600px;
   padding: 40px;
-  background-color: rgb(29, 95, 172);
+  background-color: rgb(227, 231, 235);
   margin: 0 auto;
   height: 10;
   font-family: 'Rowdies', cursive;
@@ -58,11 +63,11 @@ header h3 {
   font-family: 'Rowdies', cursive;
 }
 
+/* Estilos de la sección 2 */
 .section2 {
   padding: 40px;
-  background-color: rgb(29, 95, 172);
+  background-color: rgb(227, 231, 235);
   font-family: 'Rowdies', cursive;
-  
 }
 
 .section2  {
@@ -71,6 +76,7 @@ header h3 {
   line-height: 1.7;
 }
 
+/* Estilos generales de enlaces */
 body,
 html {
   margin: 0;
@@ -116,11 +122,12 @@ a:active {
   color: white;
 }
 
+/* Estilos del pie de página */
 footer {
   font-family: 'Cinzel', serif;
   text-align: center;
   font-size: 3rem;
-  color: rgb(0, 0, 0);
+  color: rgb(214, 214, 214);
   padding: 10px;
 }
 
@@ -134,6 +141,7 @@ h2 {
   text-align: center;
 }
 
+/* Estilos adicionales */
 .img_logo{
   width: 200px;
   position: fixed;
@@ -142,18 +150,18 @@ h2 {
   max-width: 100%;
   height: auto;
 }
-  
+
 .galeria{
-width: 600px;
-height: 500px;
-opacity: .5;
-border: double grey 2px;
+  width: 600px;
+  height: 500px;
+  opacity: .5;
+  border: double grey 2px;
 }
 
 .section3{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 img:hover{
@@ -181,51 +189,18 @@ h4 {
   margin-bottom: 20px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
-
-.logo {
-  text-align: center;
-}
-
-.img_logo {
-  max-width: 100%;
-  height: auto;
-}
-
-header {
-  padding: 20px;
-  text-align: center;
-}
-
-h1 {
-  margin-top: 10px;
-}
-
-main {
-  padding: 20px;
-}
-
-footer {
-  padding: 20px;
-  text-align: center;
-}
-
-
+/* Estilos responsivos */
 @media (max-width: 767px) {
   .img_logo {
-      max-width: 100%;
-      height: auto;
+    max-width: 100%;
+    height: auto;
   }
 }
 
 @media (min-width: 768px) {
   .img_logo {
-      max-width: 200px;
-      height: auto;
+    max-width: 200px;
+    height: auto;
   }
 }
 
@@ -243,19 +218,30 @@ footer {
 
 @keyframes aparecer {
 
-    0%{
-        opacity: 0;
-    }
+  0%{
+    opacity: 0;
+  }
 
-    50%{
-      opacity: 1;
-    }
+  50%{
+    opacity: 1;
+  }
 
-    100%{
-      opacity: 0;
-    }
+  100%{
+    opacity: 0;
+  }
 }
 
 .animate__animated.animate__jackInTheBox{
   --animate-duration: 3s;
+}
+
+.text-center{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  color: rgb(224, 224, 224);
+  padding: 5px;
+}
+
+.content{
+  color: aliceblue;
 }
