@@ -1,79 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilo.css">
-    <title>Aeroclub San Nicolas</title>
-</head>
-
-<body>
-    <!-- Header -->
-    <header>
-        <div class="logo">
-            <a href="../index.html">
-                <img class="img_logo" src="../img/logo aeroclub.png" alt="Logo Aeroclub San Nicolas">
-            </a>
-        </div>
-        <h1>Aeroclub San Nicolas</h1>
-        <nav>
-            <ul>
-                <li><a href="./ubicacion.html">UBICACION</a></li>
-                <li><a href="./flota.html">FLOTA</a></li>
-                <li><a href="./galeria.html">GALERIA</a></li>
-                <li><a href="../index.html">HOME</a></li>
-            </ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Index</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="../css/estilo.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Aeroclub San Nicolas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ubicacion.html">UBICACION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">GALERIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./flota.html">FLOTA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </header>
 
-    <!-- Main Content -->
-    <main class="container mt-5">
-        <h2 class="text-center mb-3">Cursos!</h2>
-        <h3 class="text-center mb-4">Nuestros cursos disponibles!</h3>
-        <div class="row">
-            <div class="col-md-4">
-                <h2 class="text-center">
-                    Piloto Privado de Avión
-                </h2>
-                <p>Tener por lo menos 17 años de edad (menores de 18 años requieren autorización de ambos padres para realizar el curso).</p>
-                <p>Haber aprobado la Educación General Básica (EGB) o ciclo primario completo o equivalente. Para extranjeros deben presentar estudios medios o secundarios apostillados.</p>
-                <p>Poseer Certificado de Habilitación Psicofisiológica Clase II.</p>
+        <div class="container my-3">
+            <div class="row animate__animated animate__rubberBand">
+                <h1 class="display-3">Venga a volar!</h1>
+                <p class="text-justify">
+                   Nuestros cursos disponibles </p>
+                <p>
+                    <a class="btn btn-primary btn-lg" href="./cursos.html" role="button">CURSOS</a>
+                </p>
             </div>
-            <div class="col-md-4">
-                <h2 class="text-center">
-                    Piloto Comercial de Avión
-                </h2>
-                
-                <p>Poseer la Licencia de Piloto Privado de Avión</p>
-                <p>Tener por lo menos 18 años de edad.</p>
-                <p>Ciclo Secundario completo o equivalente. Extranjeros deben presentar estudios secundarios apostillados o Certificados en Consulado Argentino.</p>
-                <p>Poseer Certificado de Habilitación Psicofisiológica Clase I.</p>
+
+            <div class="row text-center animate__animated animate__bounceInLeft">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Piloto Privado</h5>
+                            <p class="card-text"> Tener por lo menos 17 años de edad (menores de 18 años requieren autorización de ambos padres para realizar el curso).
+
+                                 Haber aprobado la Educación General Básica (EGB) o ciclo primario completo o equivalente.  Para extranjeros deben presentar estudios medios o secundarios apostillados.
+                                
+                                 Poseer Certificado de Habilitación Psicofisiológica Clase II.</p>
+                            <a href="#" class="btn btn-info">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Piloto Comercial</h5>
+                            <p class="card-text"> Poseer la Licencia de Piloto Privado de Avión
+
+                                 Tener por lo menos 18 años de edad.
+                                
+                                 Ciclo Secundario completo o equivalente. Extranjeros deben presentar estudios secundarios apostillados o Certificados en Consulado Argentino.
+                                
+                                 Poseer Certificado de Habilitación Psicofisiológica Clase I.</p>
+                            <a href="#" class="btn btn-info">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Instructor de vuelo</h5>
+                            <p class="card-text"> Ser titular de la licencia de Piloto Comercial, Piloto Comercial de Primera Clase de Avión o Piloto de Transporte de Línea Aérea o Piloto de Planeador.
+
+                                Tener 21 años de edad.
+                                
+                                 Ser capaz de leer, hablar, escribir y entender correctamente el idioma español.
+                                
+                                Haber aprobado el Ciclo de Educación Polimodal o estudios secundarios completos, o equivalente reconocido por la autoridad competente.</p>
+                            <a href="#" class="btn btn-info">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div> 
-                <h2 class="text-center">
-                    Instructor de Vuelo
-                </h2>
-                <p>Ser titular de la licencia de Piloto Comercial, Piloto Comercial de Primera Clase de Avión o Piloto de Transporte de Línea Aérea o Piloto de Planeador.</p>
-                <p>Tener 21 años de edad.</p>
-                <p>Ser capaz de leer, hablar, escribir y entender correctamente el idioma español.</p>
-                <p>Haber aprobado el Ciclo de Educación Polimodal o estudios secundarios completos, o equivalente reconocido por la autoridad competente.</p>
-                <p>Poseer el Certificado de Habilitación Psicofisiológica vigente, correspondiente a la licencia de piloto profesional o de planeador de la cual es titular.</p>
-                <p>Aprobar las exigencias establecidas en el curso teórico de Instrucción Reconocida para la licencia de Instructor de Vuelo.</p>
-                <p>Poseer las horas de vuelo exigidas para cada licencia de Instructor de Vuelo por categoría de aeronave.</p>
-                <p>Aprobar ante Inspector de Vuelo designado por la Autoridad Aeronáutica competente, un examen teórico de conocimientos y la prueba de pericia de las áreas de instrucción establecida en los Estándares para la realización de Exámenes Prácticos en Aeronaves.</p>
+
+            <div class="row align-items-center animate__animated animate__bounceInRight">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <p class="text-justify">
+                        Para mas informacion sobre los cursos contactarse con nosotros a traves de aeroclubsannicolas@gmail.com
+                    </p>
+                </div>
+            </div>
+
+            <div class="row align-items-center animate__animated animate__backInUp">
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mt-3">
+                    <form>
+                        <div class="mb-2">
+                            <label for="txtEmail" class="form-label">Correo Electronico</label>
+                            <input type="email" class="form-control" id="txtEmail" aria-describedby="emailHelp" />
+                        </div>
+                        <div class="mb-2">
+                            <label for="txtComment" class="form-label">Comentario</label>
+                            <textarea class="form-control" id="txtComment" rows="7"></textarea>
+                        </div>
+                    </form>
+                </div>
+            
+            </div>
+
+            <div class="row">
+                <footer class="py-3 my-4">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
+                        <li class="nav-item"><a href="./ubicacion.html" class="nav-link px-2 text-muted">Ubicacion</a></li>
+                        <li class="nav-item"><a href="./galeria.html" class="nav-link px-2 text-muted">Galeria</a></li>
+                        <li class="nav-item"><a href="./flota.html" class="nav-link px-2 text-muted">Flota</a></li>
+                        <li class="nav-item"><a href="./cursos.html" class="nav-link px-2 text-muted">Cursos</a></li>
+                    </ul>
+                    <p class="text-center text-muted">© <span id="Lautaro Recalde"></span>Lautaro Recalde</p>
+                </footer>
             </div>
         </div>
-        <h4 class="text-center">Para más información contáctese con nosotros!</h4>
-    </main>
 
-    <!-- Footer -->
-    <hr>
-    <footer>
-        <h3><a href="tel:+5411-234567">+54 11-234567</a></h3>
-        <h4><a href="mailto:aeroclubsannicolas@gmail.com">aeroclubsannicolas@gmail.com</a></h4>
-    </footer>
-</body>
-
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
 </html>

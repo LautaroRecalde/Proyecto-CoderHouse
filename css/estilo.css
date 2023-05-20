@@ -1,154 +1,31 @@
-/* Reset de estilos */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Estilos generales del cuerpo del documento */
 body {
-  font-family: 'Rowdies', cursive;
-  background-image: url(../img/nuevo\ fondo.jpg);
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #ffefba); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #ffefba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 16px;
 }
 
-/* Estilos del logo */
-.logo {
-  text-align: center;
+.nav-link {
+  font-weight: 600;
 }
 
-.img_logo {
-  text-align: center;
-  width: 200px;
-  position: fixed;
-  left: 50%;
-  margin-left: -450px;
+.text-justify {
+  text-align: justify;
 }
 
-/* Estilos del encabezado */
-header{
-  padding: 40px;
-  text-align: center;
+#txtComment {
+  resize: none;
 }
 
-header h1 {
-  font-family: 'Cinzel', serif;
-  text-align: center;
-  font-size: 3rem;
-  color: rgb(251, 251, 252);
-  padding: 10px;
+@media (max-width: 576px) {
+  .card-text {
+      font-size: 0.8rem;
+  }
 }
 
-header h3 {
-  text-align: center;
-  font-size: 2rem;
-  color: rgb(13, 13, 14);
-  padding: 10px;
-  font-family: 'Bebas Neue', cursive;
-}
-
-/* Estilos de la sección 1 */
-.section1 {
-  width: 600px;
-  padding: 40px;
-  background-color: rgb(227, 231, 235);
-  margin: 0 auto;
-  height: 10;
-  font-family: 'Rowdies', cursive;
-}
-
-.section1  {
-  padding: 40px;
-  font-size: 1.2rem;
-  line-height: 1.7;
-  font-family: 'Rowdies', cursive;
-}
-
-/* Estilos de la sección 2 */
-.section2 {
-  padding: 40px;
-  background-color: rgb(227, 231, 235);
-  font-family: 'Rowdies', cursive;
-}
-
-.section2  {
-  padding: 40px;
-  font-size: 1.2rem;
-  line-height: 1.7;
-}
-
-/* Estilos generales de enlaces */
-body,
-html {
-  margin: 0;
-  font-family: sans-serif;
-}
-
-ul {
-  padding: 0;
-  width: 100%;
-}
-
-li {
-  display: inline;
-}
-
-a {
-  outline: none;
-  text-decoration: none;
-  display: inline-block;
-  width: 19.5%;
-  margin-right: 0.625%;
-  text-align: center;
-  line-height: 3;
-  color: black;
-}
-
-li:last-child a {
-  margin-right: 0;
-}
-
-a:link,
-a:visited,
-a:focus {
-  background: rgb(255, 255, 255);
-}
-
-a:hover {
-  background: rgb(207, 12, 12);
-}
-
-a:active {
-  background: red;
-  color: white;
-}
-
-/* Estilos del pie de página */
-footer {
-  font-family: 'Cinzel', serif;
-  text-align: center;
-  font-size: 3rem;
-  color: rgb(214, 214, 214);
-  padding: 10px;
-}
-
-.linkk {
-  text-align: center;
-  padding: 20px;
-  margin: auto;
-}
-
-h2 {
-  text-align: center;
-}
-
-/* Estilos adicionales */
-.img_logo{
-  width: 200px;
-  position: fixed;
-  left: 50%;
-  margin-left: -450px;
-  max-width: 100%;
-  height: auto;
+.img-fluid{
+  height: 500px;
+  -ms-flex-align: center;
 }
 
 .galeria{
@@ -156,92 +33,17 @@ h2 {
   height: 500px;
   opacity: .5;
   border: double grey 2px;
+  -ms-flex-align: center;
 }
-
-.section3{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
 img:hover{
   opacity: 1;
   border: solid 2px white;
 }
-
-main {
-  padding: 20px;
-  text-align: center;
-}
-
-h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-h4 {
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-
-/* Estilos responsivos */
-@media (max-width: 767px) {
-  .img_logo {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .img_logo {
-    max-width: 200px;
-    height: auto;
-  }
-}
-
 .galeria:hover{
   transform: scale(1.1, 1.1);
   transition: all 2s ;
 }
 
-.aparecer{
-  margin: 10px;
-  animation-duration: 4s;
-  animation-name: aparecer;
-  animation-iteration-count: infinite;
-}
-
-@keyframes aparecer {
-
-  0%{
-    opacity: 0;
-  }
-
-  50%{
-    opacity: 1;
-  }
-
-  100%{
-    opacity: 0;
-  }
-}
-
-.animate__animated.animate__jackInTheBox{
-  --animate-duration: 3s;
-}
-
-.text-center{
-  font-family: 'Cinzel', serif;
-  text-align: center;
-  color: rgb(224, 224, 224);
-  padding: 5px;
-}
-
-.content{
-  color: aliceblue;
+.body{
+  font-family: 'Rowdies', cursive;
 }

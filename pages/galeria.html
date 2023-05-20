@@ -1,38 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/estilo.css">
-    <title>Aeroclub San Nicolas</title>
-</head>
-
-<body>
-    <!-- Header -->
-    <header>
-        <a href="../index.html">
-            <img class="img_logo" src="../img/logo aeroclub.png" alt="Logo Aeroclub San Nicolas">
-        </a>
-        <h1>Aeroclub San Nicolas</h1>
-        <nav>
-            <ul>
-                <li><a href="./ubicacion.html">UBICACION</a></li>
-                <li><a href="./flota.html">FLOTA</a></li>
-                <li><a href="./galeria.html">GALERIA</a></li>
-                <li><a href="../index.html">HOME</a></li>
-            </ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Index</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="../css/estilo.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Aeroclub San Nicolas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ubicacion.html">UBICACION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">GALERIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./flota.html">FLOTA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </header>
 
-    <!-- Main Content -->
-    <main>
-        <h2>Galeria!</h2>
-        <section class="section3">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+        <div class="container my-3">
+            <div class="row animate__animated animate__rubberBand">
+                <h1 class="display-3">Venga a volar!</h1>
+                <p class="text-justify">
+                    Galeria! </p>
+            </div>
+
+
+            <div class="row align-items-center animate__animated animate__bounceInRight">
+                    
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div>
                         <img class="galeria" src="../img/img1galeria.jpeg" width="600px" alt="Avion">
                     </div>
@@ -51,19 +67,26 @@
                     <div>
                         <img class="galeria" src="../img/img6galeria.jpeg" width="600px" alt="Avion6">
                     </div>
+                    
                 </div>
             </div>
-        </section>
-    </main>
+                
+            <div class="row">
+                <footer class="py-3 my-4">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
+                        <li class="nav-item"><a href="./ubicacion.html" class="nav-link px-2 text-muted">Ubicacion</a></li>
+                        <li class="nav-item"><a href="./galeria.html" class="nav-link px-2 text-muted">Galeria</a></li>
+                        <li class="nav-item"><a href="./flota.html" class="nav-link px-2 text-muted">Flota</a></li>
+                        <li class="nav-item"><a href="./cursos.html" class="nav-link px-2 text-muted">Cursos</a></li>
+                    </ul>
+                    <p class="text-center text-muted">© <span id="Lautaro Recalde"></span> Lautaro Recalde</p>
+                </footer>
+            </div>
+        </div>
 
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-        <h3><a href="tel:+5411-234567">+54 11-234567</a></h3> 
-        <h4><a href="mailto:aeroclubsannicolas@gmail.com">aeroclubsannicolas@gmail.com</a></h4>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+    </body>
 </html>
