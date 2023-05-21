@@ -17,7 +17,7 @@ body {
   resize: none;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px){
   .card-text {
       font-size: 0.8rem;
   }
