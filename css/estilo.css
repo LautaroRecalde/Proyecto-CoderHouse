@@ -1,57 +1,58 @@
-/* Body */
-body {
-  background: #ffefba; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffffff, #ffefba); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffffff, #ffefba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-size: 16px;
-  font-family: 'Rowdies', cursive;
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Navigation Link */
+body {
+  background: #ffffff;
+  background: linear-gradient(to right, #ffffff, #ffefba);
+  font-size: 16px;
+  font-family: "Rowdies", cursive;
+}
+
 .nav-link {
   font-weight: 600;
 }
 
-/* Text Justify */
 .text-justify {
   text-align: justify;
 }
 
-/* Comment Textarea */
 #txtComment {
   resize: none;
 }
 
-/* Media Query for Small Screens */
+.img-fluid {
+  height: 500px;
+  align-self: center;
+}
+
+.galeria {
+  width: 600px;
+  height: 500px;
+  opacity: 0.5;
+  border: double #6c757d 2px;
+  align-self: center;
+}
+.galeria:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+
+img:hover {
+  opacity: 1;
+  border: solid 2px #ffffff;
+}
+
 @media (max-width: 576px) {
   .card-text {
     font-size: 0.8rem;
   }
 }
-
-/* Fluid Image */
-.img-fluid {
-  height: 500px;
-  -ms-flex-align: center;
-}
-
-/* Image Gallery */
-.galeria {
-  width: 600px;
-  height: 500px;
-  opacity: .5;
-  border: double grey 2px;
-  -ms-flex-align: center;
-}
-
-/* Image Hover */
-img:hover {
-  opacity: 1;
-  border: solid 2px white;
-}
-
-/* Gallery Hover Effect */
-.galeria:hover {
-  transform: scale(1.1, 1.1);
-  transition: all 2s;
-}
+.redes {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+}/*# sourceMappingURL=index.css.map */

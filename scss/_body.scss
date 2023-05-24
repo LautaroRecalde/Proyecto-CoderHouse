@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    background: $background-color;
+    background: linear-gradient(to right, $gradient-color-1, $gradient-color-2);
+    font-size: $font-size;
+    font-family: $font-family;
+  }
+  
+  .nav-link {
+    font-weight: 600;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  #txtComment {
+    resize: none;
+  }
+  .img-fluid {
+    height: 500px;
+    align-self: center;
+  }
+  
+  .galeria {
+    width: 600px;
+    height: 500px;
+    opacity: 0.5;
+    border: double #6c757d 2px;
+    align-self: center;
+  
+    &:hover {
+      transform: scale(1.1);
+      transition: all 2s;
+    }
+  }
+  
+  img {
+    &:hover {
+      opacity: 1;
+      border: solid 2px #ffffff;
+    }
+  }
