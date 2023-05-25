@@ -1,3 +1,5 @@
+/* Section 1: General Styles */
+
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
 * {
   margin: 0;
@@ -12,9 +14,13 @@ body {
   font-family: "Rowdies", cursive;
 }
 
+/* Section 2: Navigation Styles */
+
 .nav-link {
   font-weight: 600;
 }
+
+/* Section 3: Text Styles */
 
 .text-justify {
   text-align: justify;
@@ -23,6 +29,8 @@ body {
 #txtComment {
   resize: none;
 }
+
+/* Section 4: Image Styles */
 
 .img-fluid {
   height: 500px;
@@ -36,23 +44,29 @@ body {
   border: double #6c757d 2px;
   align-self: center;
 }
+
 .galeria:hover {
   transform: scale(1.1);
   transition: all 2s;
 }
 
-img:hover {
+.img:hover {
   opacity: 1;
   border: solid 2px #ffffff;
 }
+
+/* Section 5: Social Media Styles */
+
+.redes {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+}
+
+/* Section 6: Media Queries */
 
 @media (max-width: 576px) {
   .card-text {
     font-size: 0.8rem;
   }
 }
-.redes {
-  width: 100px;
-  height: 100px;
-  justify-content: center;
-}/*# sourceMappingURL=index.css.map */
