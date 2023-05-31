@@ -2,46 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body {
+  }
+  
+  // Estilos para el body
+  body {
+    // Fondo
     background: $background-color;
     background: linear-gradient(to right, $gradient-color-1, $gradient-color-2);
+    // Tipografía
     font-size: $font-size;
     font-family: $font-family;
-    }
-
-.nav-link {
+  }
+  
+  // Estilos para los enlaces de navegación
+  .nav-link {
     font-weight: 600;
-}
-
-.text-justify {
+  }
+  
+  // Estilos para el texto justificado
+  .text-justify {
     text-align: justify;
-}
-
-#txtComment {
+  }
+  
+  // Estilos para el campo de texto de comentario
+  #txtComment {
     resize: none;
-}
-.img-fluid {
+  }
+  
+  // Estilos para imágenes fluidas
+  .img-fluid {
     height: 500px;
     align-self: center;
-}
-
-.galeria {
-    width: 600px;
-    height: 500px;
-    opacity: 0.5;
-    border: double #6c757d 2px;
-    align-self: center;
-
-&:hover {
-    transform: scale(1.1);
-    transition: all 2s;
-    }
-}
-
-.img {
-    &:hover {
-    opacity: 1;
-    border: solid 2px #ffffff;
-    }
-}
+  }
