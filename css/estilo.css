@@ -12,31 +12,32 @@ body {
   font-family: "Rowdies", cursive;
 }
 
-body .nav-link {
+estilos .nav-link {
   font-weight: 600;
 }
 
-body .text-justify {
+estilos .text-justify {
   text-align: justify;
 }
 
-body #txtComment {
+estilos #txtComment {
   resize: none;
 }
 
-body .img-fluid {
+estilos .img-fluid {
   height: 500px;
   align-self: center;
 }
 
-body .redes {
+.redes {
   width: 100px;
   height: 100px;
   justify-content: center;
 }
 
 @media (max-width: 576px) {
-  body .card-text {
+  .card-text {
     font-size: 0.8rem;
   }
-}
+}/*# sourceMappingURL=index.css.map */
+
