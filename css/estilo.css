@@ -11,20 +11,19 @@ body {
   font-size: 16px;
   font-family: "Rowdies", cursive;
 }
-
-estilos .nav-link {
+.nav-link {
   font-weight: 600;
 }
 
-estilos .text-justify {
+.text-justify {
   text-align: justify;
 }
 
-estilos #txtComment {
+#txtComment {
   resize: none;
 }
 
-estilos .img-fluid {
+.img-fluid {
   height: 500px;
   align-self: center;
 }
