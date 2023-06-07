@@ -2,7 +2,7 @@
 .nav-link {
     font-weight: 600;
 }
-  
+
   // Estilos para el texto justificado
 .text-justify {
     text-align: justify;
@@ -17,4 +17,9 @@
 .img-fluid {
     height: 500px;
     align-self: center;
+}
+
+.carousel-control-next-icon {
+    filter: invert(1);
+
 }

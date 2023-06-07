@@ -8,10 +8,22 @@
 body {
   background: #ffffff;
   background: linear-gradient(to right, #ffffff, #ffefba);
+  background-repeat: no-repeat;
   font-size: 16px;
   font-family: "Rowdies", cursive;
 }
 
+.redes {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .card-text {
+    font-size: 0.8rem;
+  }
+}
 .nav-link {
   font-weight: 600;
 }
@@ -29,14 +41,6 @@ body {
   align-self: center;
 }
 
-.redes {
-  width: 100px;
-  height: 100px;
-  justify-content: center;
-}
-
-@media (max-width: 576px) {
-  .card-text {
-    font-size: 0.8rem;
-  }
+.carousel-control-next-icon {
+  filter: invert(1);
 }/*# sourceMappingURL=index.css.map */
